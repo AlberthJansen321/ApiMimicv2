@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiMimicv2</name>
+    </assembly>
+    <members>
+        <member name="M:ApiMimicv2.V1.Controllers.PalavrasController.get(ApiMimicv2.Herlpers.QueryPaginacao)">
+            <summary>
+            Operação que pegar do banco todas as palavras existentes.
+            </summary>
+            <param name="query">Filtro de Pesquisa</param>
+            <returns>Listagem de Palavras</returns>
+        </member>
+        <member name="M:ApiMimicv2.V1.Controllers.PalavrasController.Obter(System.Int32)">
+            <summary>
+            Operação que pegar uma unica palavra do banco de dados.
+            </summary>
+            <param name="id">Código Identificador</param>
+            <returns>Um Objeto Palavra</returns>
+        </member>
+        <member name="M:ApiMimicv2.V1.Controllers.PalavrasController.Cadastrar(ApiMimicv2.V1.Models.Palavra)">
+            <summary>
+            Operação que realizar o cadastro da palavra.
+            </summary>
+            <param name="palavra">Um objeto Palavra</param>
+            <returns>Objeto Palavra Cadastro</returns>
+        </member>
+        <member name="M:ApiMimicv2.V1.Controllers.PalavrasController.Alterar(System.Int32,ApiMimicv2.V1.Models.Palavra)">
+            <summary>
+            Operação que Atualizar um objeto palavra.
+            </summary>
+            <param name="id">Código Identificador</param>
+            <param name="palavra">Objeto Palavra</param>
+            <returns>Objeto Atualizado</returns>
+        </member>
+        <member name="M:ApiMimicv2.V1.Controllers.PalavrasController.Deletar(System.Int32)">
+            <summary>
+            Desativar um objeto palavra do banco de dados.
+            </summary>
+            <param name="id">Código Idenficador</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMimicv2.V2.Controllers.PalavrasController.Get">
+            <summary>
+            Operação que traz todas as palavras do banco de dados
+            </summary>
+            <returns>Version 2.0</returns>
+        </member>
+    </members>
+</doc>
